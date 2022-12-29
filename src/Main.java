@@ -135,10 +135,20 @@ public class Main {
         System.out.println(" ");
 
 
-        for (int i = 1; i <= 3000; i++) {
 
+        String text = " ";
+        for (int i = 77; i <= 3000; i += 77) {
+            text += i + ",";
         }
-        System.out.println(i +);
+        text = text.substring(0, text.length() -1);
+        System.out.print(text);
+
+//        String nums = "0123456789rdtyujoiuytdftghujikj";
+//        System.out.println(nums);
+//        System.out.println(nums.substring(3,nums.length() -1));
+
+        //================ 3 uzd ==============================
+
 
 
 
