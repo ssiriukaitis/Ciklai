@@ -118,6 +118,28 @@ public class Main {
         //==========1 uzd =================
 
 
+        int more150=0;
+
+        for (int i = 0; i <= 300; i++) {
+            if (i <= 275)
+            System.out.print(i + " ");
+            if (i > 275)
+                System.out.print("[" + i + "] ");
+                if (i > 150)
+                        more150++;
+        }
+        System.out.println();
+        System.out.println(more150 + " skaiciu didesniu uz 150");
+
+        //=====================2 uzd ============================
+        System.out.println(" ");
+
+
+        for (int i = 1; i <= 3000; i++) {
+
+        }
+        System.out.println(i +);
+
 
 
 
